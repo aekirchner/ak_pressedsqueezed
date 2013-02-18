@@ -35,8 +35,8 @@
 			<h1 class="assistive-text"><?php _e( 'Menu', 'ak_pressedsqueezed' ); ?></h1>
 			<div class="assistive-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'ak_pressedsqueezed' ); ?>"><?php _e( 'Skip to content', 'ak_pressedsqueezed' ); ?></a></div>
 
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php wp_nav_menu( array( 'main' => 'Main Nav' ) ); ?>
 		</nav><!-- .site-navigation .main-navigation -->
 	</header><!-- #masthead .site-header -->
 
-	<div id="main" class="site-main">
+	<div id="main" class="site-main clearfix">

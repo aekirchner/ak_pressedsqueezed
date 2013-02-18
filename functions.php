@@ -68,7 +68,7 @@ function ak_pressedsqueezed_setup() {
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'ak_pressedsqueezed' ),
+		'main' => __( 'Main Nav', 'ak_pressedsqueezed' ),
 	) );
 
 	/**

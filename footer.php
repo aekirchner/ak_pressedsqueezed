@@ -12,12 +12,10 @@
 	</div><!-- #main .site-main -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<?php do_action( 'ak_pressedsqueezed_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'ak_pressedsqueezed' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'ak_pressedsqueezed' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'ak_pressedsqueezed' ), 'ak_pressedsqueezed', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<h1>Contact Us</h1>
+			<p>AllisonWP</p>
+			<p>2525 Orange Way, Orchard, CA 91104</p>
+			<p>Phone: (800) 424-3232</p>
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
 
